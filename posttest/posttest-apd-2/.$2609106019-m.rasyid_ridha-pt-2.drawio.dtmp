@@ -1,0 +1,91 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="amWs1FYnAkNA3g8wLA2P">
+    <mxGraphModel dx="1559" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LAPw1BRQENSD86hcCxi--1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="mulai" vertex="1">
+          <mxGeometry height="80" width="120" x="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="261.55000000000007" y="80" as="sourcePoint" />
+            <mxPoint x="261.54999999999995" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LAPw1BRQENSD86hcCxi--10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="261.5649999999998" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Deklarasi&amp;nbsp;&lt;div&gt;bagasi_1 = 12&lt;br&gt;bagasi_2 = 18&lt;br&gt;bagasi_3 = 7&lt;br&gt;bagasi_4 = 15&lt;br&gt;bagasi_5 = 20&lt;br&gt;bagasi_6 = 10&lt;/div&gt;&lt;div&gt;&lt;br&gt;NIM = 19&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="353.75" x="84.65999999999997" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--14" edge="1" parent="1" source="LAPw1BRQENSD86hcCxi--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="261.5500000000002" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="list bagasi = [12, 18, 7, 15, 20, 10]" vertex="1">
+          <mxGeometry height="60" width="270" x="126.55999999999997" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LAPw1BRQENSD86hcCxi--15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="261.5500000000002" y="460" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--13" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Hitung Total Berat&lt;div&gt;total_berat =&amp;nbsp;bagasi_1 + bagasi_2 + bagasi_3 + bagasi_4 + bagasi_5 + bagasi_6&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="443.13" x="39.999999999999986" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--18" edge="1" parent="1" source="LAPw1BRQENSD86hcCxi--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LAPw1BRQENSD86hcCxi--17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Hitung Total berat + kompensasi&lt;div&gt;total_berat_akhir = total_berat * 5 / 100&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="249.99" x="136.56999999999996" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--20" edge="1" parent="1" source="LAPw1BRQENSD86hcCxi--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LAPw1BRQENSD86hcCxi--19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="hitung nilai rata rata berat bagasi&amp;nbsp;&lt;div&gt;rata_rata = total_berat_akhir / len(bagasi)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="270" x="126.55999999999997" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--36" edge="1" parent="1" source="LAPw1BRQENSD86hcCxi--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LAPw1BRQENSD86hcCxi--31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Boolean = NIM &amp;lt; rata_rata" vertex="1">
+          <mxGeometry height="60" width="180" x="171.54999999999998" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--39" edge="1" parent="1" source="LAPw1BRQENSD86hcCxi--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LAPw1BRQENSD86hcCxi--23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="penumpang_tengah = bagasi[2:5]" vertex="1">
+          <mxGeometry height="60" width="229.99" x="569.99" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--26" edge="1" parent="1" source="LAPw1BRQENSD86hcCxi--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LAPw1BRQENSD86hcCxi--25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--23" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="total berat dalam gram = tota_berat_akhir * 1000" vertex="1">
+          <mxGeometry height="60" width="169.99" x="599.99" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--30" edge="1" parent="1" source="LAPw1BRQENSD86hcCxi--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LAPw1BRQENSD86hcCxi--29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--25" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=0;" value="Tampilkan (bagasi_1, bagasi_2, bagasi_3, bagasi_4, bagasi_5, bagasi_6, total_berat, total_berat_akhir, rata_rata, nim, bolean, penumpang_tengah, total_berat_gram)" vertex="1">
+          <mxGeometry height="80" width="270" x="550" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--29" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="selesai" vertex="1">
+          <mxGeometry height="80" width="120" x="624.99" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--31" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.33333333333333715;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="231.56" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--38" edge="1" parent="1" source="LAPw1BRQENSD86hcCxi--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LAPw1BRQENSD86hcCxi--21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAPw1BRQENSD86hcCxi--33" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.5;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="655" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
