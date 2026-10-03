@@ -62,13 +62,11 @@
 # print("\n")
 # print(f"Jumlah bilangan ganjil: {hitung}")
 
-UangSakuAwal = int(input("Masukkan uang saku awal: "))
-UangDigunakan = int(input("Masukkan uang yang digunakan: "))
-SisaUangSaku = UangSakuAwal - UangDigunakan
-while SisaUangSaku > 0:
-    SisaUangSaku = UangSakuAwal - UangDigunakan
-    print(f"Sisa uang saku: {SisaUangSaku}")
-    if SisaUangSaku <= 0:
-        print("Uang saku habis.")
-        break
-    UangDigunakan = int(input("Masukkan uang yang digunakan: "))
+# UangSakuAwal = int(input("Masukkan uang saku awal: "))
+# UangSakuDigunakan = int(input("Masukkan uang saku yang digunakan: "))
+# UangSakuAkhir = UangSakuAwal - UangSakuDigunakan
+
+# while uangSakuAkhir > 0:
+#     print("Uang saku tidak cukup!")
+#     UangSakuDigunakan = int(input("Masukkan uang saku yang digunakan: "))
+#     UangSakuAkhir = UangSakuAwal - UangSakuDigunakan
