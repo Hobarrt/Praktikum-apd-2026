@@ -780,7 +780,8 @@ while program_jalan == True:
                         print("Pilihan tidak valid!")
                         input("Tekan Enter untuk melanjutkan...")
 
-    
+
+
     elif pilihan_awal == "0":
         program_jalan = False
         print("Terima kasih, program selesai.")
