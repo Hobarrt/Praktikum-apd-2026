@@ -40,12 +40,7 @@ def tampilkan_judul(teks):
     bersihkan_layar()
     print(f"=== {teks} ===")
 
-
-# =====================================================
-# FUNGSI TANPA PARAMETER (dengan return)
-# =====================================================
 def buat_id_servis():
-    """FUNGSI TANPA PARAMETER 1: membuat ID servis baru (SRV1, SRV2, ...)."""
     global nomor_servis
     id_baru = "SRV" + str(nomor_servis)
     nomor_servis += 1
@@ -53,7 +48,6 @@ def buat_id_servis():
 
 
 def buat_id_layanan():
-    """FUNGSI TANPA PARAMETER 2: membuat ID layanan baru (L12, L13, ...)."""
     global nomor_layanan
     id_baru = "L" + str(nomor_layanan)
     nomor_layanan += 1
